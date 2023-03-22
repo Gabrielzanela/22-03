@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="PT-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Revisão</title>
+    <script src="scopt.js"></script>
+    <script src="peixe.js"></script>
+    <script src="mamifero.js"></script>
+</head>
+<body>
+    <script>
+    let camelo = new Animal('camelo', 150, 4, 'amarelo', 'terra', '2m/s')
+    camelo.Dados(camelo)
+
+    let peixe = new Peixe('Tubarão', 300, 0, 'cinzento', 'mar', '1.5m/s', 'barbatanas')
+    peixe.Dados(peixe)
+    console.log(peixe.Retornarcaracteristica())
+    console.log(peixe.Retornarcaracteristica())
+    
+    let mamifero = new Mamifero('urso-do-canada', 180, 4, 'vermelho', 'terra', '0.5m/s', 'atum')
+    mamifero.Dados(mamifero)
+    
+
+
+
+    </script>
+</body>
+</html>
